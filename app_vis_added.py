@@ -9,16 +9,13 @@ from data_cleaning import clean_customers_data
 
 st.set_page_config(page_title='Customer Purchase Platform', layout='wide')
 
-# -------------------------------
-# Paths
-# -------------------------------
+
 BASE = Path(__file__).resolve().parents[1]
 data_dir = BASE / 'data'
 models_dir = BASE / 'code'/'models'
 
-# -------------------------------
+
 # Load Datasets
-# -------------------------------
 @st.cache_data
 def load_data():
     customers = pd.read_csv(data_dir / 'customers.csv')
@@ -28,18 +25,16 @@ def load_data():
 
 customers, products, transactions = load_data()
 
-# -------------------------------
+
 # Data Cleaning
-# -------------------------------
 @st.cache_data
 def get_clean_customers(df):
     return clean_customers_data(df)
 
 customers_clean = get_clean_customers(customers)
 
-# -------------------------------
+
 # Load ML Models
-# -------------------------------
 try:
     logistic = joblib.load(models_dir / 'model_logistic.pkl')
     rf = joblib.load(models_dir / 'model_randomforest.pkl')
@@ -48,9 +43,8 @@ except Exception as e:
     st.warning(f"⚠ Model loading error: {e}")
     logistic = rf = xgb = None
 
-# -------------------------------
+
 # Load Supporting Files
-# -------------------------------
 rfm = pd.read_csv(models_dir / 'rfm_customers.csv') if (models_dir / 'rfm_customers.csv').exists() else None
 pop = pd.read_csv(models_dir / 'product_popularity.csv') if (models_dir / 'product_popularity.csv').exists() else None
 
@@ -59,9 +53,8 @@ try:
 except:
     sim_df = None
 
-# -------------------------------
+
 # Streamlit Setup
-# -------------------------------
 
 st.title('Customer Purchase Prediction + RFM + Segmentation + Recommendations')
 
@@ -200,7 +193,7 @@ elif page == 'Recommendations':
     )
 
     # -------------------------------
-    # 🔹 TOP POPULAR PRODUCTS
+    #  TOP POPULAR PRODUCTS
     # -------------------------------
     st.subheader('Top Popular Products')
 
@@ -226,7 +219,7 @@ elif page == 'Recommendations':
     )
 
     # -------------------------------
-    # 🔹 CUSTOMER PURCHASE HISTORY
+    # CUSTOMER PURCHASE HISTORY
     # -------------------------------
     st.subheader(f'Customer {cust} – Purchase History')
 
