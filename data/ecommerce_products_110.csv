@@ -1,0 +1,111 @@
+ProductID,Category,ProductName,Price
+1,Electronics,Wireless Mouse,799
+2,Electronics,Bluetooth Keyboard,1299
+3,Electronics,USB-C Charger,999
+4,Electronics,Noise Cancelling Headphones,5999
+5,Electronics,Smartphone Power Bank,1499
+6,Electronics,Smart LED Bulb,699
+7,Electronics,Webcam HD,2499
+8,Electronics,Portable Speaker,2999
+9,Electronics,Smart Watch,6999
+10,Electronics,Wireless Earbuds,3499
+11,Clothing,Men Cotton T-Shirt,499
+12,Clothing,Women Casual Top,699
+13,Clothing,Men Slim Fit Jeans,1599
+14,Clothing,Women Denim Jeans,1799
+15,Clothing,Men Formal Shirt,1299
+16,Clothing,Women Kurti,1199
+17,Clothing,Men Hoodie,1999
+18,Clothing,Women Sweater,1899
+19,Clothing,Men Track Pants,999
+20,Clothing,Women Leggings,699
+21,Footwear,Men Running Shoes,2499
+22,Footwear,Women Sports Shoes,2699
+23,Footwear,Men Casual Sneakers,2199
+24,Footwear,Women Sandals,1499
+25,Footwear,Men Formal Shoes,2999
+26,Footwear,Women Heels,1999
+27,Footwear,Men Flip Flops,799
+28,Footwear,Women Flats,1299
+29,Home Appliances,Electric Kettle,1799
+30,Home Appliances,Mixer Grinder,3499
+31,Home Appliances,Induction Cooktop,2999
+32,Home Appliances,Vacuum Cleaner,4999
+33,Home Appliances,Ceiling Fan,2599
+34,Home Appliances,Air Fryer,6999
+35,Home Appliances,Water Purifier,8999
+36,Home Appliances,Iron Box,1499
+37,Books,Fiction Novel,399
+38,Books,Self Help Book,499
+39,Books,Data Science Textbook,899
+40,Books,Machine Learning Guide,999
+41,Books,Children Story Book,299
+42,Books,Competitive Exam Guide,699
+43,Books,Python Programming Book,799
+44,Books,Digital Marketing Handbook,599
+45,Beauty,Face Wash,299
+46,Beauty,Moisturizing Cream,399
+47,Beauty,Shampoo,349
+48,Beauty,Hair Conditioner,349
+49,Beauty,Perfume Spray,1299
+50,Beauty,Makeup Kit,1999
+51,Beauty,Sunscreen Lotion,499
+52,Beauty,Lipstick Set,899
+53,Sports,Fitness Dumbbells,1499
+54,Sports,Yoga Mat,799
+55,Sports,Cricket Bat,1999
+56,Sports,Football,999
+57,Sports,Badminton Racket,1299
+58,Sports,Tennis Ball Pack,499
+59,Sports,Cycling Helmet,1799
+60,Sports,Skipping Rope,399
+61,Groceries,Basmati Rice 5kg,699
+62,Groceries,Wheat Flour 5kg,349
+63,Groceries,Sugar 1kg,59
+64,Groceries,Sunflower Oil 1L,179
+65,Groceries,Toor Dal 1kg,189
+66,Groceries,Tea Powder 500g,249
+67,Groceries,Coffee Powder 200g,299
+68,Groceries,Organic Honey 500g,399
+69,Electronics,Laptop Cooling Pad,1199
+70,Electronics,External Hard Drive 1TB,5499
+71,Clothing,Men Leather Jacket,3499
+72,Clothing,Women Winter Coat,3799
+73,Footwear,Men Hiking Boots,3999
+74,Footwear,Women Running Shoes,2899
+75,Home Appliances,Microwave Oven,7999
+76,Home Appliances,Refrigerator Mini,12999
+77,Books,Cloud Computing Basics,699
+78,Books,Artificial Intelligence Guide,1099
+79,Beauty,Hair Styling Gel,249
+80,Beauty,Beard Grooming Kit,1499
+81,Sports,Gym Resistance Bands,899
+82,Sports,Table Tennis Bat,799
+83,Groceries,Almonds 500g,449
+84,Groceries,Cashews 500g,499
+85,Electronics,Smartphone Tripod,899
+86,Electronics,WiFi Router,2499
+87,Clothing,Men Sports Jacket,2299
+88,Clothing,Women Yoga Pants,1299
+89,Footwear,Kids School Shoes,1499
+90,Footwear,Men Loafers,2599
+91,Home Appliances,Electric Rice Cooker,2999
+92,Home Appliances,Air Cooler,6499
+93,Books,Database Management Systems,899
+94,Books,Operating Systems Concepts,999
+95,Beauty,Face Mask Pack,599
+96,Beauty,Anti Hair Fall Serum,799
+97,Sports,Boxing Gloves,1999
+98,Sports,Skipping Rope Digital,699
+99,Groceries,Green Tea Bags,199
+100,Groceries,Chia Seeds 250g,249
+101,Electronics,Smart Home Plug,1299
+102,Electronics,Wireless Charging Pad,1599
+103,Clothing,Men Ethnic Kurta,1799
+104,Clothing,Women Saree,2999
+105,Footwear,Women Ankle Boots,3499
+106,Home Appliances,Hand Blender,1999
+107,Books,Computer Networks Book,899
+108,Beauty,Makeup Brush Set,999
+109,Sports,Adjustable Kettlebell,2499
+110,Groceries,Olive Oil 500ml,499
